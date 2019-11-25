@@ -1,0 +1,1164 @@
+﻿[2016.02.29-15.12.48:777][  0]Log file open, 02/29/16 10:12:48
+[2016.02.29-15.12.48:777][  0]LogInit:Display: Running engine for game: VRLogo_410
+[2016.02.29-15.12.48:777][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.29-15.12.48:777][  0]LogInit:Display: RandInit(-591420777) SRandInit(-591420776).
+[2016.02.29-15.12.48:777][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.02.29-15.12.48:777][  0]LogStats: Stats thread started at 0.096567
+[2016.02.29-15.12.48:777][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.29-15.12.48:777][  0]LogInit: API Version: 2758231
+[2016.02.29-15.12.48:777][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.02.29-15.12.48:777][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.29-15.12.48:777][  0]LogInit: Build Configuration: Development
+[2016.02.29-15.12.48:777][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.29-15.12.48:777][  0]LogInit: Command line: -EpicPortal 
+[2016.02.29-15.12.48:777][  0]LogInit: Base directory: E:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.29-15.12.48:777][  0]LogInit: Rocket: 1
+[2016.02.29-15.12.48:782][  0]LogInit: Using libcurl 7.41.0
+[2016.02.29-15.12.48:782][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.29-15.12.48:782][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.29-15.12.48:782][  0]LogInit:  - other features:
+[2016.02.29-15.12.48:782][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.29-15.12.48:782][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.29-15.12.48:782][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.29-15.12.48:782][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.29-15.12.48:782][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.29-15.12.48:782][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.29-15.12.48:782][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.29-15.12.48:782][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.29-15.12.48:782][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.29-15.12.48:782][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.29-15.12.48:789][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.29-15.12.48:797][  0]LogInit: Object subsystem initialized
+[2016.02.29-15.12.48:805][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.29-15.12.48:805][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.29-15.12.48:814][  0]LogInit: Computer: D1146
+[2016.02.29-15.12.48:814][  0]LogInit: User: laurenridge
+[2016.02.29-15.12.48:814][  0]LogInit: CPU Page size=4096, Cores=8
+[2016.02.29-15.12.48:814][  0]LogInit: High frequency timer resolution =2.734541 MHz
+[2016.02.29-15.12.48:814][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2016.02.29-15.12.48:815][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-15.12.48:815][  0]LogMemory: Process Physical Memory: 60.05 MB used, 60.05 MB peak
+[2016.02.29-15.12.48:815][  0]LogMemory: Process Virtual Memory: 61.95 MB used, 61.95 MB peak
+[2016.02.29-15.12.48:815][  0]LogMemory: Physical Memory: 10492.87 MB used, 24567.23 MB total
+[2016.02.29-15.12.48:815][  0]LogMemory: Virtual Memory: 368.42 MB used, 8388608.00 MB total
+[2016.02.29-15.12.48:864][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.29-15.12.49:439][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2016.02.29-15.12.49:439][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.02.29-15.12.49:440][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.29-15.12.49:445][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.29-15.12.49:445][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.29-15.12.49:458][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.29-15.12.49:474][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (../../../../../VRLogo_410/Intermediate/Shaders/WorkingDirectory/8712/).
+[2016.02.29-15.12.49:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LAUREN~1.RID/AppData/Local/Temp/UnrealShaderWorkingDir/38EF562E4E40C7D50E7A3E9116E553E7/'.
+[2016.02.29-15.12.49:474][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.29-15.12.50:465][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.29-15.12.50:470][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.29-15.12.50:475][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.29-15.12.50:479][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.29-15.12.50:483][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.29-15.12.50:486][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.29-15.12.50:490][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.29-15.12.50:493][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.29-15.12.50:496][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.29-15.12.50:500][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.29-15.12.50:503][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.29-15.12.50:510][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.29-15.12.50:510][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.29-15.12.50:510][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.29-15.12.50:527][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.29-15.12.50:533][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.29-15.12.50:538][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.29-15.12.50:544][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.29-15.12.50:544][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.29-15.12.50:650][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.29-15.12.50:712][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/lauren.ridge/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.29-15.12.50:712][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lauren.ridge/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.29-15.12.50:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../VRLogo_410/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.29-15.12.50:712][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.29-15.12.50:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../VRLogo_410/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.29-15.12.50:712][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.29-15.12.50:792][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.29-15.12.50:804][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lauren.ridge/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.29-15.12.51:035][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.29-15.12.51:036][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.29-15.12.51:077][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.29-15.12.51:077][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.29-15.12.51:474][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.29-15.12.52:783][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.29-15.12.52:905][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.02.29-15.12.53:082][  0]SourceControl: Info Source control is disabled
+[2016.02.29-15.12.53:083][  0]SourceControl: Info Source control is disabled
+[2016.02.29-15.12.53:094][  0]SourceControl: Info Source control is disabled
+[2016.02.29-15.12.53:104][  0]SourceControl: Info Source control is disabled
+[2016.02.29-15.12.53:355][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.29-15.12.53:355][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.29-15.12.53:421][  0]LogEngine: Initializing Engine...
+[2016.02.29-15.12.53:423][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.29-15.12.53:424][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.29-15.12.53:581][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.29-15.12.53:595][  0]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-15.12.53:609][  0]LogInit: FAudioDevice initialized.
+[2016.02.29-15.12.53:667][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/lauren.ridge/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.29-15.12.53:675][  0]LogInit: Texture streaming: Enabled
+[2016.02.29-15.12.53:681][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.29-15.12.53:681][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.29-15.12.53:681][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cff52a6349bbeb670c3ba99edf376aac|4b816c922ee940d3b74ead193af90c83|d4bc2e4b-658d-4057-9d26-54452fd7481d
+[2016.02.29-15.12.53:681][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.29-15.12.53:692][  0]LogInit: Transaction tracking system initialized
+[2016.02.29-15.12.53:715][  0]BlueprintLog: New page: Editor Load
+[2016.02.29-15.12.54:353][  0]LocalizationService: Info Localization service is disabled
+[2016.02.29-15.12.54:520][  0]LogConsoleResponse:Display: 
+[2016.02.29-15.12.54:662][  0]LogFileCache: Scanning file cache for directory 'E:/VRLogo_410/Content/' took 0.01s
+[2016.02.29-15.12.54:662][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.29-15.12.54:724][  0]SourceControl: Info Source control is disabled
+[2016.02.29-15.12.54:724][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.29-15.12.54:725][  0]LightingResults: New page: Lighting Build
+[2016.02.29-15.12.54:727][  0]MapCheck: New page: Map Check
+[2016.02.29-15.12.54:727][  0]LightingResults: New page: Lighting Build
+[2016.02.29-15.12.54:741][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021D5A160
+[2016.02.29-15.12.55:114][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.02.29-15.12.55:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.29-15.12.55:126][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.29-15.12.55:203][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.606ms to complete.
+[2016.02.29-15.12.55:203][  0]LogFileHelpers: Loading map 'Template_Default' took 0.479
+[2016.02.29-15.12.55:317][  0]LogCollectionManager: Loaded 0 collections in 0.001216 seconds
+[2016.02.29-15.12.55:398][  0]LogFileCache: Scanning file cache for directory 'E:/VRLogo_410/Saved/Collections/' took 0.01s
+[2016.02.29-15.12.55:398][  0]LogFileCache: Scanning file cache for directory 'E:/VRLogo_410/Content/Developers/laurenridge/Collections/' took 0.01s
+[2016.02.29-15.12.55:398][  0]LogFileCache: Scanning file cache for directory 'E:/VRLogo_410/Content/Collections/' took 0.01s
+[2016.02.29-15.12.55:398][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.29-15.12.55:410][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1893 classes and 338 folders.
+[2016.02.29-15.12.55:416][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.29-15.12.55:478][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.29-15.12.55:482][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.29-15.12.55:713][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.29-15.12.55:720][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.29-15.12.55:741][  0]LogLoad: Full Startup: 7.54 seconds (BP compile: 0.06 seconds)
+[2016.02.29-15.12.55:752][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.29-15.12.55:803][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.29-15.12.56:117][  0]LogRenderer: Reallocating scene render targets to support 1168x708 (Frame:2).
+[2016.02.29-15.12.59:849][285]LogAssetRegistry: Asset discovery search completed in 6.9555 seconds
+[2016.02.29-15.12.59:850][285]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.02.29-15.12.59:850][285]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2016.02.29-15.14.32:643][668]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/lauren.ridge/Downloads/VRLogoExports/T_RandomTileNoise_nearest.TGA)
+[2016.02.29-15.14.32:671][668]LogTexture:Display: Building textures: T_RandomTileNoise_nearest (AutoDXT)
+[2016.02.29-15.14.35:380][977]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.02.29-15.14.40:320][457]LogTexture:Display: Building textures: T_RandomTileNoise_nearest (AutoDXT)
+[2016.02.29-15.15.00:453][432]LogTexture:Display: Building textures: T_RandomTileNoise_nearest (AutoDXT)
+[2016.02.29-15.15.14:696][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Textures/T_RandomTileNoise_nearest" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset" SILENT=true
+[2016.02.29-15.15.14:709][113]LogSavePackage: Save=4.238371ms
+[2016.02.29-15.15.14:709][113]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/T_RandomTileNoise_nearestCA066CE0467787D71665DFB17BEB1EC4.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset'
+[2016.02.29-15.15.14:712][113]LogSavePackage: Total save time: 11.980437ms
+[2016.02.29-15.15.14:712][113]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset
+[2016.02.29-15.18.05:036][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Textures/T_RandomTileNoise_nearest" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset" SILENT=true
+[2016.02.29-15.18.05:095][ 70]LogSavePackage: Save=49.265305ms
+[2016.02.29-15.18.05:095][ 70]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/T_RandomTileNoise_nearestA1FC97BC4F523B753466C0B95A3253BF.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset'
+[2016.02.29-15.18.05:097][ 70]LogSavePackage: Total save time: 52.888948ms
+[2016.02.29-15.18.05:097][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset
+[2016.02.29-15.19.57:976][712]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/lauren.ridge/Downloads/VRLogoExports/T_TechPattern_radialmask_ChannelPack_01.TGA)
+[2016.02.29-15.19.58:120][712]LogTexture:Display: Building textures: T_TechPattern_radialmask_ChannelPack_01 (AutoDXT)
+[2016.02.29-15.20.32:203][397]LogTexture:Display: Building textures: T_TechPattern_radialmask_ChannelPack_01 (AutoDXT)
+[2016.02.29-15.20.43:592][887]LogSavePackage: Save=841.823181ms
+[2016.02.29-15.20.43:592][887]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/T_TechPattern_radialmask_ChannelPack_01AA703BDD4B56071E4671EABCA9F0BAA3.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_TechPattern_radialmask_ChannelPack_01.uasset'
+[2016.02.29-15.20.43:594][887]LogSavePackage: Total save time: 844.419595ms
+[2016.02.29-15.20.43:594][887]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_TechPattern_radialmask_ChannelPack_01.uasset
+[2016.02.29-15.21.15:885][ 16]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/lauren.ridge/Downloads/VRLogoExports/T_UE4_Logo.TGA)
+[2016.02.29-15.21.15:926][ 16]LogTexture:Display: Building textures: T_UE4_Logo (AutoDXT)
+[2016.02.29-15.21.27:290][289]LogTexture:Display: Building textures: T_UE4_Logo (AutoDXT)
+[2016.02.29-15.21.44:768][312]LogTexture:Display: Building textures: T_UE4_Logo (BGRA8)
+[2016.02.29-15.21.44:931][312]LogMaterial: 0.000491 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.21.46:827][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Textures/T_UE4_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_UE4_Logo.uasset" SILENT=true
+[2016.02.29-15.21.47:004][528]LogSavePackage: Save=175.192474ms
+[2016.02.29-15.21.47:004][528]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/T_UE4_LogoA526D7AB42E0FFD5DDF0C181E80364C7.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_UE4_Logo.uasset'
+[2016.02.29-15.21.47:005][528]LogSavePackage: Total save time: 176.592343ms
+[2016.02.29-15.21.47:005][528]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_UE4_Logo.uasset
+[2016.02.29-15.23.17:403][659]LogEditorFactories: Performing atomic reimport of [C:/Users/lauren.ridge/Downloads/VRLogoExports/T_UE4_Logo.TGA]
+[2016.02.29-15.23.17:403][659]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/lauren.ridge/Downloads/VRLogoExports/T_UE4_Logo.TGA)
+[2016.02.29-15.23.17:461][659]LogTexture:Display: Building textures: T_UE4_Logo (BGRA8)
+[2016.02.29-15.23.17:611][659]LogEditorFactories: -- imported successfully
+[2016.02.29-15.23.29:851][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Textures/T_UE4_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_UE4_Logo.uasset" SILENT=true
+[2016.02.29-15.23.30:057][ 30]LogSavePackage: Save=201.423569ms
+[2016.02.29-15.23.30:057][ 30]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/T_UE4_LogoB84A83454459F33C36AC10B06BA57A3F.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_UE4_Logo.uasset'
+[2016.02.29-15.23.30:060][ 30]LogSavePackage: Total save time: 207.611077ms
+[2016.02.29-15.23.30:060][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_UE4_Logo.uasset
+[2016.02.29-15.26.07:664][367]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.02.29-15.26.09:664][515]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.02.29-15.26.09:668][515]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.26.09:669][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.02.29-15.26.09:680][515]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.26.09:680][515]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.29-15.26.09:680][515]LogMaterial:Warning: 	Missing function output 'Result'
+[2016.02.29-15.26.09:680][515]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.26.09:683][515]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.26.09:683][515]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.29-15.26.09:683][515]LogMaterial:Warning: 	Missing function output 'Result'
+[2016.02.29-15.26.09:683][515]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.26.09:707][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.02.29-15.26.09:708][515]MaterialEditorStats:Error: Error [SM5] Missing function output 'Result'
+[2016.02.29-15.26.19:440][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_6.EdGraphPin_4801''
+[2016.02.29-15.26.19:467][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_2.EdGraphPin_4789''
+[2016.02.29-15.26.19:468][955]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFunctionInput'MaterialGraphNode_1.MaterialExpressionFunctionInput_1')'
+[2016.02.29-15.26.19:469][955]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFunctionInput'MaterialGraphNode_7.MaterialExpressionFunctionInput_2')'
+[2016.02.29-15.26.19:469][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_7.EdGraphPin_4804''
+[2016.02.29-15.26.19:469][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_6.EdGraphPin_4800''
+[2016.02.29-15.26.19:471][955]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionDivide'MaterialGraphNode_6.MaterialExpressionDivide_0')'
+[2016.02.29-15.26.19:471][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_6.EdGraphPin_4802''
+[2016.02.29-15.26.19:472][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_5.EdGraphPin_4796''
+[2016.02.29-15.26.19:474][955]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAbs'MaterialGraphNode_3.MaterialExpressionAbs_0')'
+[2016.02.29-15.26.19:474][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_4.EdGraphPin_4794''
+[2016.02.29-15.26.19:476][955]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'MaterialGraphNode_2.MaterialExpressionSubtract_0')'
+[2016.02.29-15.26.19:476][955]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFunctionInput'MaterialGraphNode_0.MaterialExpressionFunctionInput_0')'
+[2016.02.29-15.26.19:509][955]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.26.19:509][955]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.29-15.26.19:509][955]LogMaterial:Warning: 	Missing function output 'Result'
+[2016.02.29-15.26.19:509][955]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.26.19:511][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2016.02.29-15.26.19:520][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2016.02.29-15.26.19:526][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_2, compiling. 
+[2016.02.29-15.26.23:650][410]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.26.23:653][410]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.26.23:749][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.02.29-15.26.23:753][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2016.02.29-15.26.23:757][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2016.02.29-15.26.23:761][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_2, compiling. 
+[2016.02.29-15.26.32:583][929]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.26.32:586][929]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.26.32:614][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.02.29-15.26.33:237][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialFunctions/EdgeGradient" FILE="../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset" SILENT=true
+[2016.02.29-15.26.33:249][987]LogSavePackage: Save=10.610556ms
+[2016.02.29-15.26.33:249][987]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/EdgeGradient9557C1A64957EF71EFD37294FEF26882.tmp' to '../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset'
+[2016.02.29-15.26.33:250][987]LogSavePackage: Total save time: 12.045532ms
+[2016.02.29-15.26.33:250][987]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset
+[2016.02.29-15.27.03:586][178]LogMaterialEditor: Saving and Compiling material EdgeGradient
+[2016.02.29-15.27.04:119][178]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.27.04:128][178]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.04:193][178]LogMaterial: 0.000492 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.04:255][178]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2016.02.29-15.27.04:299][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialFunctions/EdgeGradient" FILE="../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset" SILENT=true
+[2016.02.29-15.27.04:331][178]LogSavePackage: Save=14.247729ms
+[2016.02.29-15.27.04:331][178]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/EdgeGradientC043186348820525C3B3C6AC57C562C6.tmp' to '../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset'
+[2016.02.29-15.27.04:333][178]LogSavePackage: Total save time: 17.524332ms
+[2016.02.29-15.27.04:333][178]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset
+[2016.02.29-15.27.29:641][903]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.31:066][ 15]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2016.02.29-15.27.31:069][ 15]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.31:071][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_1, compiling. 
+[2016.02.29-15.27.31:072][ 15]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.27.31:073][ 15]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_6 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.29-15.27.31:073][ 15]LogMaterial:Warning: 	Missing function output 'Result'
+[2016.02.29-15.27.31:073][ 15]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.31:075][ 15]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.27.31:075][ 15]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_6 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.29-15.27.31:075][ 15]LogMaterial:Warning: 	Missing function output 'Result'
+[2016.02.29-15.27.31:075][ 15]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.31:101][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_1, compiling. 
+[2016.02.29-15.27.31:103][ 15]MaterialEditorStats:Error: Error [SM5] Missing function output 'Result'
+[2016.02.29-15.27.39:198][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:205][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_11.EdGraphPin_4812''
+[2016.02.29-15.27.39:209][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:217][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_11.EdGraphPin_4811''
+[2016.02.29-15.27.39:218][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFunctionInput'MaterialGraphNode_10.MaterialExpressionFunctionInput_7')'
+[2016.02.29-15.27.39:218][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFunctionInput'MaterialGraphNode_9.MaterialExpressionFunctionInput_6')'
+[2016.02.29-15.27.39:221][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:229][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_12.EdGraphPin_4814''
+[2016.02.29-15.27.39:229][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_15.EdGraphPin_4822''
+[2016.02.29-15.27.39:229][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_17.EdGraphPin_4826''
+[2016.02.29-15.27.39:230][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'MaterialGraphNode_11.MaterialExpressionSubtract_2')'
+[2016.02.29-15.27.39:232][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:240][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_13.EdGraphPin_4816''
+[2016.02.29-15.27.39:242][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionCeil'MaterialGraphNode_12.MaterialExpressionCeil_0')'
+[2016.02.29-15.27.39:244][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:252][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_8.EdGraphPin_4805''
+[2016.02.29-15.27.39:253][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'MaterialGraphNode_11.MaterialExpressionSubtract_2')'
+[2016.02.29-15.27.39:258][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:271][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_14.EdGraphPin_4820''
+[2016.02.29-15.27.39:272][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'MaterialGraphNode_11.MaterialExpressionSubtract_2')'
+[2016.02.29-15.27.39:275][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:290][354]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_16.EdGraphPin_4824''
+[2016.02.29-15.27.39:291][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAbs'MaterialGraphNode_15.MaterialExpressionAbs_2')'
+[2016.02.29-15.27.39:295][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:309][354]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionClamp'MaterialGraphNode_17.MaterialExpressionClamp_3')'
+[2016.02.29-15.27.39:312][354]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.02.29-15.27.39:344][354]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.27.39:345][354]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_6 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.29-15.27.39:345][354]LogMaterial:Warning: 	Missing function output 'Result'
+[2016.02.29-15.27.39:345][354]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.39:347][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_3, compiling. 
+[2016.02.29-15.27.39:353][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.02.29-15.27.39:359][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2016.02.29-15.27.39:364][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_3, compiling. 
+[2016.02.29-15.27.43:213][692]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.27.43:217][692]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.43:341][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_1, compiling. 
+[2016.02.29-15.27.43:345][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_3, compiling. 
+[2016.02.29-15.27.43:348][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.02.29-15.27.43:351][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2016.02.29-15.27.43:355][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_3, compiling. 
+[2016.02.29-15.27.57:560][ 78]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.27.57:563][ 78]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.57:592][ 78]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_1, compiling. 
+[2016.02.29-15.27.58:822][216]LogMaterialEditor: Saving and Compiling material HardEdgedMask
+[2016.02.29-15.27.59:284][216]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.27.59:296][216]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.59:321][216]LogMaterial: 0.000380 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.27.59:358][216]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2016.02.29-15.27.59:383][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialFunctions/HardEdgedMask" FILE="../../../../../VRLogo_410/Content/MaterialFunctions/HardEdgedMask.uasset" SILENT=true
+[2016.02.29-15.27.59:399][216]LogSavePackage: Save=14.930476ms
+[2016.02.29-15.27.59:399][216]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/HardEdgedMask5388051145E751A464E1A9BB84FAADE6.tmp' to '../../../../../VRLogo_410/Content/MaterialFunctions/HardEdgedMask.uasset'
+[2016.02.29-15.27.59:401][216]LogSavePackage: Total save time: 16.546104ms
+[2016.02.29-15.27.59:401][216]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/MaterialFunctions/HardEdgedMask.uasset
+[2016.02.29-15.28.21:341][483]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.28.21:344][483]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.28.21:369][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.02.29-15.28.24:538][858]LogMaterialEditor: Saving and Compiling material EdgeGradient
+[2016.02.29-15.28.25:019][858]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.28.25:026][858]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.28.25:087][858]LogMaterial: 0.000705 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.28.25:163][858]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2016.02.29-15.28.25:202][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialFunctions/EdgeGradient" FILE="../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset" SILENT=true
+[2016.02.29-15.28.25:227][858]LogSavePackage: Save=14.672664ms
+[2016.02.29-15.28.25:227][858]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/EdgeGradientF13B31FD4D4988F873DAEEB41AE43EBC.tmp' to '../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset'
+[2016.02.29-15.28.25:229][858]LogSavePackage: Total save time: 16.948000ms
+[2016.02.29-15.28.25:229][858]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset
+[2016.02.29-15.29.42:057][462]LogRenderer: Reallocating scene render targets to support 1432x1040 (Frame:18431).
+[2016.02.29-15.30.21:140][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Materials/M_Black_2sided" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset" SILENT=true
+[2016.02.29-15.30.21:156][221]LogSavePackage: Save=14.892078ms
+[2016.02.29-15.30.21:156][221]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/M_Black_2sidedBBCEC2524DA284E31A8639BC6DAD15AD.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset'
+[2016.02.29-15.30.21:157][221]LogSavePackage: Total save time: 16.210400ms
+[2016.02.29-15.30.21:157][221]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset
+[2016.02.29-15.30.23:597][501]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.23:687][501]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.23:695][501]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.30.24:719][552]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.29-15.30.24:719][552]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.30.24:719][552]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.30.32:501][178]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_Root_0.EdGraphPin_4854''
+[2016.02.29-15.30.32:505][178]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.32:510][178]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.30.32:871][213]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.29-15.30.32:871][213]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.30.32:871][213]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.30.37:037][703]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.37:043][703]LogMaterial: 0.000211 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.30.37:436][746]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.29-15.30.37:436][746]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.30.37:436][746]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.30.51:699][406]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.51:705][406]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.51:708][406]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.30.51:851][422]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.02.29-15.30.51:851][422]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.30.51:851][422]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.30.53:828][646]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.53:834][646]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.30.53:837][646]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.30.54:006][664]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2016.02.29-15.30.54:006][664]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.30.54:006][664]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.31.51:291][365]LogMaterialEditor: Saving and Compiling material M_Black_2sided
+[2016.02.29-15.31.51:784][365]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.31.51:789][365]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.31.51:832][365]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.31.51:841][365]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.31.51:846][365]LogMaterial: 0.001008 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.31.53:090][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Materials/M_Black_2sided" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset" SILENT=true
+[2016.02.29-15.31.53:108][365]LogSavePackage: Save=14.633901ms
+[2016.02.29-15.31.53:108][365]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/M_Black_2sidedAC10AC5D41B1C2E4AC7B77B01FEDD003.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset'
+[2016.02.29-15.31.53:110][365]LogSavePackage: Total save time: 18.137597ms
+[2016.02.29-15.31.53:110][365]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset
+[2016.02.29-15.31.53:115][365]MaterialEditorStats: Info Base pass shader without light map: 46 instructions
+[2016.02.29-15.31.53:115][365]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.31.53:115][365]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.32.38:733][579]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.32.38:792][579]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.32.38:798][579]LogMaterial: 0.000225 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.32.39:635][647]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.29-15.32.39:635][647]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.32.39:636][647]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.32.57:840][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_Root_1.EdGraphPin_4881''
+[2016.02.29-15.32.57:840][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_83.EdGraphPin_5060''
+[2016.02.29-15.32.57:840][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_28.EdGraphPin_4908''
+[2016.02.29-15.32.57:840][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_28.MaterialExpressionAdd_0')'
+[2016.02.29-15.32.57:841][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_83.MaterialExpressionScalarParameter_9')'
+[2016.02.29-15.32.57:843][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_61.EdGraphPin_5005''
+[2016.02.29-15.32.57:843][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_52.EdGraphPin_4980''
+[2016.02.29-15.32.57:843][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_52.MaterialExpressionMultiply_6')'
+[2016.02.29-15.32.57:843][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_61.MaterialExpressionAdd_3')'
+[2016.02.29-15.32.57:846][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_58.EdGraphPin_4992''
+[2016.02.29-15.32.57:846][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_60.EdGraphPin_5000''
+[2016.02.29-15.32.57:846][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_67.EdGraphPin_5019''
+[2016.02.29-15.32.57:846][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_81.EdGraphPin_5056''
+[2016.02.29-15.32.57:847][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_79.EdGraphPin_5052''
+[2016.02.29-15.32.57:850][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_40.EdGraphPin_4944''
+[2016.02.29-15.32.57:851][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_32.EdGraphPin_4926''
+[2016.02.29-15.32.57:851][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_32.MaterialExpressionMultiply_1')'
+[2016.02.29-15.32.57:851][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_32.EdGraphPin_4924''
+[2016.02.29-15.32.57:853][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_33.EdGraphPin_4927''
+[2016.02.29-15.32.57:853][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'MaterialGraphNode_31.MaterialExpressionTextureCoordinate_0')'
+[2016.02.29-15.32.57:853][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_33.MaterialExpressionScalarParameter_0')'
+[2016.02.29-15.32.57:855][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_53.EdGraphPin_4981''
+[2016.02.29-15.32.57:855][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_37.EdGraphPin_4935''
+[2016.02.29-15.32.57:855][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_48.EdGraphPin_4966''
+[2016.02.29-15.32.57:855][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_48.MaterialExpressionMaterialFunctionCall_2',OutputIndex=2,InputName="Mask"))'
+[2016.02.29-15.32.57:855][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_37.MaterialExpressionScalarParameter_1',InputName="Width"))'
+[2016.02.29-15.32.57:856][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_36.EdGraphPin_4933''
+[2016.02.29-15.32.57:857][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_43.EdGraphPin_4950''
+[2016.02.29-15.32.57:857][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'MaterialGraphNode_35.MaterialExpressionTextureCoordinate_1')'
+[2016.02.29-15.32.57:859][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_52.EdGraphPin_4979''
+[2016.02.29-15.32.57:859][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_64.EdGraphPin_5012''
+[2016.02.29-15.32.57:859][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_47.EdGraphPin_4961''
+[2016.02.29-15.32.57:860][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_47.MaterialExpressionAdd_1',InputName="Mask"))'
+[2016.02.29-15.32.57:860][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstantBiasScale'MaterialGraphNode_64.MaterialExpressionConstantBiasScale_1',InputName="Offset"))'
+[2016.02.29-15.32.57:861][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_58.EdGraphPin_4993''
+[2016.02.29-15.32.57:861][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_63.EdGraphPin_5010''
+[2016.02.29-15.32.57:861][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_59.EdGraphPin_4995''
+[2016.02.29-15.32.57:861][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionVectorParameter'MaterialGraphNode_59.MaterialExpressionVectorParameter_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2016.02.29-15.32.57:862][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionOneMinus'MaterialGraphNode_63.MaterialExpressionOneMinus_0')'
+[2016.02.29-15.32.57:862][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_41.EdGraphPin_4946''
+[2016.02.29-15.32.57:863][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_30.MaterialExpressionTextureSample_1',OutputIndex=1,Mask=1,MaskR=1)'
+[2016.02.29-15.32.57:864][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_47.EdGraphPin_4960''
+[2016.02.29-15.32.57:864][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_49.EdGraphPin_4968''
+[2016.02.29-15.32.57:864][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_42.EdGraphPin_4949''
+[2016.02.29-15.32.57:864][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstantBiasScale'MaterialGraphNode_40.MaterialExpressionConstantBiasScale_0')'
+[2016.02.29-15.32.57:864][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_42.MaterialExpressionScalarParameter_2')'
+[2016.02.29-15.32.57:866][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_45.EdGraphPin_4954''
+[2016.02.29-15.32.57:867][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_44.EdGraphPin_4953''
+[2016.02.29-15.32.57:867][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'MaterialGraphNode_36.MaterialExpressionComponentMask_0')'
+[2016.02.29-15.32.57:867][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_44.MaterialExpressionScalarParameter_3')'
+[2016.02.29-15.32.57:868][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_46.EdGraphPin_4957''
+[2016.02.29-15.32.57:869][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_46.EdGraphPin_4956''
+[2016.02.29-15.32.57:869][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_43.MaterialExpressionMultiply_4')'
+[2016.02.29-15.32.57:870][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_47.EdGraphPin_4959''
+[2016.02.29-15.32.57:870][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_49.EdGraphPin_4967''
+[2016.02.29-15.32.57:871][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionCeil'MaterialGraphNode_45.MaterialExpressionCeil_2')'
+[2016.02.29-15.32.57:871][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_44.MaterialExpressionScalarParameter_3')'
+[2016.02.29-15.32.57:872][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionDivide'MaterialGraphNode_46.MaterialExpressionDivide_2')'
+[2016.02.29-15.32.57:872][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_41.MaterialExpressionMultiply_3')'
+[2016.02.29-15.32.57:874][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_64.EdGraphPin_5012''
+[2016.02.29-15.32.57:874][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_49.EdGraphPin_4969''
+[2016.02.29-15.32.57:874][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_49.MaterialExpressionAdd_2',InputName="Mask"))'
+[2016.02.29-15.32.57:874][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstantBiasScale'MaterialGraphNode_64.MaterialExpressionConstantBiasScale_1',InputName="Offset"))'
+[2016.02.29-15.32.57:876][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_55.EdGraphPin_4986''
+[2016.02.29-15.32.57:876][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionDivide'MaterialGraphNode_46.MaterialExpressionDivide_2')'
+[2016.02.29-15.32.57:876][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_41.MaterialExpressionMultiply_3')'
+[2016.02.29-15.32.57:877][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_60.EdGraphPin_5001''
+[2016.02.29-15.32.57:877][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_77.EdGraphPin_5050''
+[2016.02.29-15.32.57:878][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_53.EdGraphPin_4984''
+[2016.02.29-15.32.57:878][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_53.MaterialExpressionMaterialFunctionCall_3')'
+[2016.02.29-15.32.57:878][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_77.MaterialExpressionMultiply_12')'
+[2016.02.29-15.32.57:904][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_77.EdGraphPin_5048''
+[2016.02.29-15.32.57:906][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_65.EdGraphPin_5015''
+[2016.02.29-15.32.57:907][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_65.MaterialExpressionAdd_5')'
+[2016.02.29-15.32.57:907][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_38.MaterialExpressionMaterialFunctionCall_1')'
+[2016.02.29-15.32.57:909][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_54.EdGraphPin_4985''
+[2016.02.29-15.32.57:931][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_34.MaterialExpressionMaterialFunctionCall_0',InputName="Depth"))'
+[2016.02.29-15.32.57:932][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_54.MaterialExpressionScalarParameter_4',InputName="Density"))'
+[2016.02.29-15.32.57:935][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_63.EdGraphPin_5009''
+[2016.02.29-15.32.57:936][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_56.EdGraphPin_4990''
+[2016.02.29-15.32.57:936][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_62.EdGraphPin_5008''
+[2016.02.29-15.32.57:936][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_49.MaterialExpressionAdd_2',InputName="Mask"))'
+[2016.02.29-15.32.57:937][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_62.MaterialExpressionAdd_4',InputName="Offset"))'
+[2016.02.29-15.32.57:937][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_56.MaterialExpressionScalarParameter_5',InputName="Width"))'
+[2016.02.29-15.32.57:940][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_62.EdGraphPin_5007''
+[2016.02.29-15.32.57:942][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_61.EdGraphPin_5003''
+[2016.02.29-15.32.57:943][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_29.MaterialExpressionTextureSample_0',OutputIndex=4,Mask=1,MaskA=1)'
+[2016.02.29-15.32.57:943][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_39.MaterialExpressionMultiply_2')'
+[2016.02.29-15.32.57:948][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_61.EdGraphPin_5004''
+[2016.02.29-15.32.57:949][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_29.MaterialExpressionTextureSample_0',OutputIndex=4,Mask=1,MaskA=1)'
+[2016.02.29-15.32.57:949][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_50.MaterialExpressionMultiply_5')'
+[2016.02.29-15.32.57:951][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_58.MaterialExpressionMultiply_7')'
+[2016.02.29-15.32.57:951][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_60.MaterialExpressionMultiply_8')'
+[2016.02.29-15.32.57:953][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_64.EdGraphPin_5012''
+[2016.02.29-15.32.57:954][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstantBiasScale'MaterialGraphNode_64.MaterialExpressionConstantBiasScale_1')'
+[2016.02.29-15.32.57:954][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_57.MaterialExpressionScalarParameter_6')'
+[2016.02.29-15.32.57:956][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_55.MaterialExpressionMaterialFunctionCall_4')'
+[2016.02.29-15.32.57:958][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_72.EdGraphPin_5033''
+[2016.02.29-15.32.57:958][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_78.EdGraphPin_5051''
+[2016.02.29-15.32.57:959][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_78.MaterialExpressionScalarParameter_8')'
+[2016.02.29-15.32.57:961][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_66.EdGraphPin_5018''
+[2016.02.29-15.32.57:961][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_81.EdGraphPin_5058''
+[2016.02.29-15.32.57:962][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_81.MaterialExpressionMaterialFunctionCall_7')'
+[2016.02.29-15.32.57:962][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_66.MaterialExpressionMultiply_9')'
+[2016.02.29-15.32.57:964][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_70.EdGraphPin_5028''
+[2016.02.29-15.32.57:964][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_70.MaterialExpressionMultiply_10')'
+[2016.02.29-15.32.57:966][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_69.EdGraphPin_5024''
+[2016.02.29-15.32.57:966][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_71.EdGraphPin_5031''
+[2016.02.29-15.32.57:967][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_29.MaterialExpressionTextureSample_0',OutputIndex=4,InputName="Depth",Mask=1,MaskA=1))'
+[2016.02.29-15.32.57:967][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_71.MaterialExpressionMultiply_11',InputName="Density"))'
+[2016.02.29-15.32.57:969][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_71.EdGraphPin_5030''
+[2016.02.29-15.32.57:970][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_70.EdGraphPin_5026''
+[2016.02.29-15.32.57:971][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_67.MaterialExpressionMaterialFunctionCall_5')'
+[2016.02.29-15.32.57:972][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_79.EdGraphPin_5054''
+[2016.02.29-15.32.57:972][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionOneMinus'MaterialGraphNode_69.MaterialExpressionOneMinus_1')'
+[2016.02.29-15.32.57:972][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMaterialFunctionCall'MaterialGraphNode_79.MaterialExpressionMaterialFunctionCall_6')'
+[2016.02.29-15.32.57:973][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_75.EdGraphPin_5040''
+[2016.02.29-15.32.57:974][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMax'MaterialGraphNode_75.MaterialExpressionMax_0')'
+[2016.02.29-15.32.57:974][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_68.MaterialExpressionScalarParameter_7')'
+[2016.02.29-15.32.57:975][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_75.EdGraphPin_5038''
+[2016.02.29-15.32.57:975][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_74.EdGraphPin_5037''
+[2016.02.29-15.32.57:975][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'MaterialGraphNode_74.MaterialExpressionComponentMask_1')'
+[2016.02.29-15.32.57:975][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstantBiasScale'MaterialGraphNode_64.MaterialExpressionConstantBiasScale_1')'
+[2016.02.29-15.32.57:976][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_74.EdGraphPin_5036''
+[2016.02.29-15.32.57:977][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'MaterialGraphNode_73.MaterialExpressionTextureCoordinate_2')'
+[2016.02.29-15.32.57:979][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'MaterialGraphNode_72.MaterialExpressionSubtract_4')'
+[2016.02.29-15.32.57:980][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_77.EdGraphPin_5049''
+[2016.02.29-15.32.57:982][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionVectorParameter'MaterialGraphNode_51.MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2016.02.29-15.32.57:982][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_76.MaterialExpressionTextureSample_2',OutputIndex=1,Mask=1,MaskR=1)'
+[2016.02.29-15.32.57:984][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_80.EdGraphPin_5055''
+[2016.02.29-15.32.58:001][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_29.MaterialExpressionTextureSample_0',OutputIndex=2,InputName="Alpha",Mask=1,MaskG=1))'
+[2016.02.29-15.32.58:001][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_80.MaterialExpressionConstant_2',InputName="Offset"))'
+[2016.02.29-15.32.58:005][647]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_82.EdGraphPin_5059''
+[2016.02.29-15.32.58:005][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_29.MaterialExpressionTextureSample_0',OutputIndex=3,InputName="Alpha",Mask=1,MaskB=1))'
+[2016.02.29-15.32.58:005][647]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_82.MaterialExpressionConstant_3',InputName="Offset"))'
+[2016.02.29-15.32.58:089][647]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.32.58:099][647]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.32.58:102][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.29-15.32.58:123][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.29-15.32.58:136][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.02.29-15.32.58:142][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.29-15.32.58:148][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.29-15.32.58:558][660]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.29-15.32.58:558][660]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.32.58:558][660]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.33.10:888][115]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.10:895][115]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.33.11:016][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.29-15.33.11:022][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.29-15.33.11:029][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.02.29-15.33.11:036][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.29-15.33.11:042][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.29-15.33.11:440][131]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2016.02.29-15.33.11:440][131]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.29-15.33.11:440][131]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.29-15.33.25:821][938]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.25:845][938]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.25:851][938]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.33.27:473][ 71]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2016.02.29-15.33.27:474][ 71]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 114 instructions
+[2016.02.29-15.33.27:474][ 71]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.29-15.33.27:474][ 71]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.02.29-15.33.28:724][191]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.28:738][191]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.28:742][191]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.33.29:631][266]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2016.02.29-15.33.29:632][266]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.29-15.33.29:632][266]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.29-15.33.41:782][727]LogMaterialEditor: Saving and Compiling material M_UE4_Logo_De-Res
+[2016.02.29-15.33.42:291][727]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.42:301][727]LogMaterial: 0.000293 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.33.42:359][727]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.42:368][727]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.33.42:373][727]LogMaterial: 0.000685 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.33.44:427][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Materials/M_UE4_Logo_De-Res" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_UE4_Logo_De-Res.uasset" SILENT=true
+[2016.02.29-15.33.44:469][727]LogSavePackage: Save=40.062298ms
+[2016.02.29-15.33.44:469][727]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/M_UE4_Logo_De-Res5820265E4A115911BD277BB7C216D8BA.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_UE4_Logo_De-Res.uasset'
+[2016.02.29-15.33.44:471][727]LogSavePackage: Total save time: 42.082746ms
+[2016.02.29-15.33.44:471][727]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_UE4_Logo_De-Res.uasset
+[2016.02.29-15.33.44:475][727]MaterialEditorStats: Info Base pass shader without light map: 72 instructions
+[2016.02.29-15.33.44:475][727]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.29-15.33.44:475][727]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.29-15.34.16:530][559]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.29-15.34.17:599][559]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0172 seconds. Added 107 classes and 0 folders.
+[2016.02.29-15.34.56:946][769]LogEditorTransaction: Undo Remove Components
+[2016.02.29-15.34.57:046][769]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.34.57:051][769]LogMaterial: 0.000259 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:055][769]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.34.57:059][769]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:077][769]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.34.57:083][769]LogMaterial: 0.000211 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:102][769]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.34.57:107][769]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:745][819]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2016.02.29-15.34.57:745][819]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.34.57:745][819]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.34.57:903][838]LogEditorTransaction: Undo Paste Component(s)
+[2016.02.29-15.34.57:911][838]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.34.57:914][838]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:916][838]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.34.57:919][838]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:920][838]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.34.57:923][838]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.57:925][838]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.34.57:929][838]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.34.58:155][861]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2016.02.29-15.34.58:155][861]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.34.58:155][861]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.34.58:665][916]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2016.02.29-15.34.58:665][916]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.29-15.34.58:665][916]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.29-15.35.01:768][ 52]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE
+[2016.02.29-15.35.01:768][ 52]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE
+[2016.02.29-15.35.01:768][ 52]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE
+[2016.02.29-15.35.01:769][ 52]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Sphere_GEN_VARIABLE
+[2016.02.29-15.35.01:776][ 52]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.01:776][ 52]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.06:492][452]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.06:492][452]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.10:017][628]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE
+[2016.02.29-15.35.10:017][628]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE
+[2016.02.29-15.35.10:018][628]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE
+[2016.02.29-15.35.10:018][628]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.UE4 Logo Plane_GEN_VARIABLE
+[2016.02.29-15.35.10:026][628]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.10:026][628]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.16:470][178]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.16:470][178]LogUObjectHash:Warning: Ambiguous search, could be SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE or SceneComponent /Engine/Transient.DefaultSceneRoot_GEN_VARIABLE
+[2016.02.29-15.35.18:181][322]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.35.18:657][322]BlueprintEditorCompileResults: Info [1349.89] Compile of BP_UE4_Intro_Logo successful! [in 476 ms]
+[2016.02.29-15.35.19:207][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.35.19:243][356]LogSavePackage: Save=34.410164ms
+[2016.02.29-15.35.19:243][356]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_Logo93FB41DF4FC8782A7BA914B8CB2E7667.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.35.19:245][356]LogSavePackage: Total save time: 36.769241ms
+[2016.02.29-15.35.19:245][356]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.35.44:727][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15415.EdGraphPin_4395''
+[2016.02.29-15.35.44:728][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15415.EdGraphPin_4394''
+[2016.02.29-15.35.44:728][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15529.EdGraphPin_4411''
+[2016.02.29-15.35.44:728][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15415.EdGraphPin_4398''
+[2016.02.29-15.35.44:728][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15529.EdGraphPin_4413''
+[2016.02.29-15.35.44:728][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_2876.EdGraphPin_4390''
+[2016.02.29-15.35.44:745][ 70]LogBlueprint:Warning: [BP_UE4_Intro_Logo] CreatePinForVariable: 'MID' variable not found. Base class was probably changed.
+[2016.02.29-15.35.44:745][ 70]LogBlueprint:Warning: [BP_UE4_Intro_Logo] CreatePinForVariable: 'MID' variable not found. Base class was probably changed.
+[2016.02.29-15.35.53:415][ 64]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.35.53:421][ 64]LogBlueprint:Warning: [compiler BP_UE4_Intro_Logo] Warning Could not find a variable named "MID" in 'BP_UE4_Intro_Logo_C'.
+Make sure 'BP_UE4_Intro_Logo_C' has been compiled for  Set MID 
+[2016.02.29-15.35.53:435][ 64]LogBlueprint:Error: [compiler BP_UE4_Intro_Logo] Error Dependency cycle detected, preventing node  Set Scalar Parameter Value  from being scheduled
+[2016.02.29-15.35.53:435][ 64]LogBlueprint:Error: [compiler BP_UE4_Intro_Logo] Error The property associated with  MID  could not be found
+[2016.02.29-15.35.53:577][ 64]LogBlueprint:Warning: [compiler BP_UE4_Intro_Logo] Warning [1384.81] Compile of BP_UE4_Intro_Logo failed. 2 Fatal Issue(s) 1 Warning(s) [in 162 ms]
+[2016.02.29-15.35.53:577][ 64]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "MID" in 'BP_UE4_Intro_Logo_C'.
+Make sure 'BP_UE4_Intro_Logo_C' has been compiled for  Set MID 
+[2016.02.29-15.35.53:577][ 64]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Scalar Parameter Value  from being scheduled
+[2016.02.29-15.35.53:577][ 64]BlueprintEditorCompileResults:Error: Error The property associated with  MID  could not be found
+[2016.02.29-15.35.53:578][ 64]BlueprintEditorCompileResults:Warning: Warning [1384.81] Compile of BP_UE4_Intro_Logo failed. 2 Fatal Issue(s) 1 Warning(s) [in 162 ms]
+[2016.02.29-15.36.20:199][210]LogEditorTransaction: Undo Promote To Variable
+[2016.02.29-15.36.20:205][210]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.36.20:208][210]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.36.20:210][210]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.36.20:213][210]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.36.20:215][210]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.36.20:218][210]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.36.20:220][210]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.36.20:224][210]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.36.20:861][255]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2016.02.29-15.36.20:861][255]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.36.20:861][255]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.36.21:656][340]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2016.02.29-15.36.21:656][340]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.29-15.36.21:656][340]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.29-15.36.23:783][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.36.23:818][578]LogSavePackage: Save=31.523024ms
+[2016.02.29-15.36.23:818][578]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_LogoDB4B6D58467E4ACEE5DBD796C50891ED.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.36.23:819][578]LogSavePackage: Total save time: 34.405772ms
+[2016.02.29-15.36.23:819][578]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.36.37:980][669]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.36.38:132][669]BlueprintEditorCompileResults: Info [1429.36] Compile of BP_UE4_Intro_Logo successful! [in 152 ms]
+[2016.02.29-15.36.58:202][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15870.EdGraphPin_4598''
+[2016.02.29-15.36.58:202][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15449.EdGraphPin_4432''
+[2016.02.29-15.36.58:202][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_21019.EdGraphPin_4555''
+[2016.02.29-15.36.58:202][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15449.EdGraphPin_4436''
+[2016.02.29-15.36.58:203][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6080.EdGraphPin_4037''
+[2016.02.29-15.36.58:203][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_25337.EdGraphPin_4459''
+[2016.02.29-15.36.58:204][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_25338.EdGraphPin_4467''
+[2016.02.29-15.36.58:204][  3]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:UserConstructionScript.K2Node_CallFunction_15529 or K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:EventGraph.K2Node_CallFunction_15529
+[2016.02.29-15.36.58:204][  3]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:UserConstructionScript.K2Node_CallFunction_15529 or K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:EdGraph_64.K2Node_CallFunction_15529
+[2016.02.29-15.36.58:204][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15529.EdGraphPin_4628''
+[2016.02.29-15.36.58:204][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15870.EdGraphPin_4597''
+[2016.02.29-15.36.58:204][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_26425.EdGraphPin_4491''
+[2016.02.29-15.36.58:204][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_26425.EdGraphPin_4492''
+[2016.02.29-15.36.58:205][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_26425.EdGraphPin_4490''
+[2016.02.29-15.36.58:206][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_119.EdGraphPin_3950''
+[2016.02.29-15.36.58:206][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_21020.EdGraphPin_4522''
+[2016.02.29-15.36.58:207][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_1267.EdGraphPin_4020''
+[2016.02.29-15.36.58:207][  3]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:UserConstructionScript.K2Node_CallFunction_15529 or K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:EventGraph.K2Node_CallFunction_15529
+[2016.02.29-15.36.58:207][  3]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:UserConstructionScript.K2Node_CallFunction_15529 or K2Node_CallFunction /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:EdGraph_64.K2Node_CallFunction_15529
+[2016.02.29-15.36.58:207][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15529.EdGraphPin_4627''
+[2016.02.29-15.36.58:208][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15452.EdGraphPin_4589''
+[2016.02.29-15.36.58:208][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_24.EdGraphPin_4645''
+[2016.02.29-15.36.58:208][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_16036.EdGraphPin_4573''
+[2016.02.29-15.36.58:208][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15913.EdGraphPin_4616''
+[2016.02.29-15.36.58:209][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_24.EdGraphPin_4642''
+[2016.02.29-15.36.58:209][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6075.EdGraphPin_4217''
+[2016.02.29-15.36.58:210][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15913.EdGraphPin_4618''
+[2016.02.29-15.36.58:210][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15452.EdGraphPin_4590''
+[2016.02.29-15.36.58:210][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_24.EdGraphPin_4643''
+[2016.02.29-15.36.58:210][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_24.EdGraphPin_4644''
+[2016.02.29-15.36.58:212][  3]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_VariableGet_92 or K2Node_VariableGet /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UpdateSunDirection.K2Node_VariableGet_92
+[2016.02.29-15.36.58:212][  3]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_VariableGet_92 or K2Node_VariableGet /Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.BP_UE4_Intro_Logo:EventGraph.K2Node_VariableGet_92
+[2016.02.29-15.36.58:212][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_92.EdGraphPin_4283''
+[2016.02.29-15.36.58:241][  3]LogBlueprint:Warning: [BP_UE4_Intro_Logo] CreatePinForVariable: 'Matinee Fade to Black' variable not found. Base class was probably changed.
+[2016.02.29-15.37.34:040][422]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.37.34:060][422]LogBlueprint:Warning: [compiler BP_UE4_Intro_Logo] Warning Could not find a variable named "Matinee Fade to Black" in 'BP_UE4_Intro_Logo_C'.
+Make sure 'BP_UE4_Intro_Logo_C' has been compiled for  Get Matinee Fade to Black 
+[2016.02.29-15.37.34:062][422]LogBlueprint:Error: [compiler BP_UE4_Intro_Logo] Error The property associated with  Matinee Fade To Black  could not be found
+[2016.02.29-15.37.34:270][422]LogBlueprint:Warning: [compiler BP_UE4_Intro_Logo] Warning [1485.50] Compile of BP_UE4_Intro_Logo failed. 1 Fatal Issue(s) 1 Warning(s) [in 229 ms]
+[2016.02.29-15.37.34:270][422]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Matinee Fade to Black" in 'BP_UE4_Intro_Logo_C'.
+Make sure 'BP_UE4_Intro_Logo_C' has been compiled for  Get Matinee Fade to Black 
+[2016.02.29-15.37.34:270][422]BlueprintEditorCompileResults:Error: Error The property associated with  Matinee Fade To Black  could not be found
+[2016.02.29-15.37.34:270][422]BlueprintEditorCompileResults:Warning: Warning [1485.50] Compile of BP_UE4_Intro_Logo failed. 1 Fatal Issue(s) 1 Warning(s) [in 229 ms]
+[2016.02.29-15.37.42:473][233]LogEditorTransaction: Undo Promote To Variable
+[2016.02.29-15.37.42:480][233]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.37.42:484][233]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.37.42:485][233]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.37.42:488][233]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.37.42:490][233]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.37.42:493][233]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.37.42:495][233]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.37.42:499][233]LogMaterial: 0.000257 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.37.43:155][272]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2016.02.29-15.37.43:155][272]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.29-15.37.43:155][272]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.29-15.37.43:943][346]MaterialEditorStats: Info Base pass shader without light map: 57 instructions
+[2016.02.29-15.37.43:943][346]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.02.29-15.37.43:943][346]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.29-15.38.58:719][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.38.58:810][800]LogSavePackage: Save=88.726776ms
+[2016.02.29-15.38.58:810][800]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_Logo1F42DA0E4233B3A95F6572AE4D8B759C.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.38.58:812][800]LogSavePackage: Total save time: 91.962051ms
+[2016.02.29-15.38.58:812][800]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.39.00:021][928]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.39.00:130][928]BlueprintEditorCompileResults: Info [1571.35] Compile of BP_UE4_Intro_Logo successful! [in 108 ms]
+[2016.02.29-15.40.26:008][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.40.26:110][414]LogSavePackage: Save=99.345009ms
+[2016.02.29-15.40.26:110][414]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_LogoA43B8D7942090313FF3E0BBF0907A32E.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.40.26:111][414]LogSavePackage: Total save time: 101.934109ms
+[2016.02.29-15.40.26:111][414]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.40.29:644][837]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.40.29:783][837]BlueprintEditorCompileResults: Info [1661.00] Compile of BP_UE4_Intro_Logo successful! [in 138 ms]
+[2016.02.29-15.41.32:646][119]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.41.32:770][119]BlueprintEditorCompileResults: Info [1723.98] Compile of BP_UE4_Intro_Logo successful! [in 123 ms]
+[2016.02.29-15.41.33:315][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.41.33:405][172]LogSavePackage: Save=85.044250ms
+[2016.02.29-15.41.33:405][172]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_Logo9D101A574A869395AE4A97BDCD360B6F.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.41.33:406][172]LogSavePackage: Total save time: 89.524347ms
+[2016.02.29-15.41.33:406][172]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.43.26:357][161]LogEditorActor: Deleted Actor: AtmosphericFog
+[2016.02.29-15.43.26:401][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.29-15.43.28:630][161]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.02.29-15.43.28:632][161]LogEditorActor: Deleted Actor: PlayerStart
+[2016.02.29-15.43.28:633][161]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.02.29-15.43.28:671][161]LogEditorActor: Deleted 5 Actors (2.323 secs)
+[2016.02.29-15.43.30:193][320]Cmd: EDIT PASTE
+[2016.02.29-15.43.30:479][320]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.02.29-15.43.40:200][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Entry" FILE="../../../../../VRLogo_410/Content/Entry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-15.43.40:307][834]LogSavePackage: Save=60.315788ms
+[2016.02.29-15.43.40:307][834]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/Entry2A98EA354D371461831D99AA239B9DC1.tmp' to '../../../../../VRLogo_410/Content/Entry.umap'
+[2016.02.29-15.43.40:308][834]LogSavePackage: Total save time: 61.880220ms
+[2016.02.29-15.43.40:308][834]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Entry.umap
+[2016.02.29-15.43.40:399][834]LogFileHelpers: Saving map 'Entry' took 1.175
+[2016.02.29-15.43.45:783][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Entry" FILE="../../../../../VRLogo_410/Content/Maps/Entry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-15.43.45:881][326]LogSavePackage: Save=24.728464ms
+[2016.02.29-15.43.45:881][326]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/Entry49690E9845D9D4F3B8BAA19B5589A72B.tmp' to '../../../../../VRLogo_410/Content/Maps/Entry.umap'
+[2016.02.29-15.43.45:882][326]LogSavePackage: Total save time: 31.104308ms
+[2016.02.29-15.43.45:882][326]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Maps/Entry.umap
+[2016.02.29-15.43.45:902][326]LogFileHelpers: Saving map 'Entry' took 0.262
+[2016.02.29-15.43.59:976][189]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2489.EdGraphPin_4771''
+[2016.02.29-15.44.00:070][189]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'BP_UE4_Intro_Logo_C'/Game/Maps/Entry.Entry:PersistentLevel.BP_UE4_Intro_Logo_C_1''
+[2016.02.29-15.44.00:070][189]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_15.EdGraphPin_4739''
+[2016.02.29-15.44.12:858][628]BlueprintLog: New page: Compile Entry
+[2016.02.29-15.44.12:952][628]BlueprintEditorCompileResults: Info [1884.15] Compile of Entry successful! [in 94 ms]
+[2016.02.29-15.44.16:332][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Entry" FILE="../../../../../VRLogo_410/Content/Maps/Entry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-15.44.16:479][ 14]LogSavePackage: Save=85.391663ms
+[2016.02.29-15.44.16:479][ 14]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/EntryFD7DD5E94001F2FE68596DBDF954923D.tmp' to '../../../../../VRLogo_410/Content/Maps/Entry.umap'
+[2016.02.29-15.44.16:481][ 14]LogSavePackage: Total save time: 116.203416ms
+[2016.02.29-15.44.16:481][ 14]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Maps/Entry.umap
+[2016.02.29-15.44.16:497][ 14]LogFileHelpers: Saving map 'Entry' took 0.248
+[2016.02.29-15.44.17:614][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.44.17:614][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-15.44.17:650][129]PIE: New page: PIE session: Entry (Feb 29, 2016, 5:44:17 AM)
+[2016.02.29-15.44.17:679][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Entry
+[2016.02.29-15.44.17:725][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046055s)
+[2016.02.29-15.44.17:726][129]LogAIModule: Creating AISystem for world Entry
+[2016.02.29-15.44.17:727][129]LogPlayLevel: PIE: World Init took: (0.001732s)
+[2016.02.29-15.44.17:727][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Entry.Entry to /Game/Maps/UEDPIE_0_Entry.Entry (0.048618s)
+[2016.02.29-15.44.17:807][129]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-15.44.17:820][129]LogInit: FAudioDevice initialized.
+[2016.02.29-15.44.18:057][129]LogWorld: Game class is 'GameMode'
+[2016.02.29-15.44.18:171][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Entry.Entry up for play (max tick rate 0) at 2016.02.29-10.44.18
+[2016.02.29-15.44.18:171][129]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.44.18:173][129]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.44.18:206][129]LogWorld: Bringing up level for play took: 0.037977
+[2016.02.29-15.44.18:410][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Entry 1.141
+[2016.02.29-15.44.18:411][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.44.26:930][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.44.27:042][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.44.27:163][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E1305E0
+[2016.02.29-15.45.06:047][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.45.06:120][781]LogSavePackage: Save=71.632866ms
+[2016.02.29-15.45.06:120][781]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_LogoE810AAEA4C2EBECBC92024B4277283F8.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.45.06:122][781]LogSavePackage: Total save time: 73.843837ms
+[2016.02.29-15.45.06:122][781]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.45.14:436][602]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.45.14:605][602]BlueprintEditorCompileResults: Info [1945.80] Compile of BP_UE4_Intro_Logo successful! [in 169 ms]
+[2016.02.29-15.45.15:256][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.45.15:339][658]LogSavePackage: Save=81.274338ms
+[2016.02.29-15.45.15:339][658]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_LogoF678A2574FEFB0941199E8B2DAE0D6C3.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.45.15:342][658]LogSavePackage: Total save time: 85.321084ms
+[2016.02.29-15.45.15:342][658]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.45.16:799][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.16:799][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-15.45.16:800][795]PIE: New page: PIE session: Entry (Feb 29, 2016, 5:45:16 AM)
+[2016.02.29-15.45.16:800][795]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Entry
+[2016.02.29-15.45.16:805][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004778s)
+[2016.02.29-15.45.16:805][795]LogAIModule: Creating AISystem for world Entry
+[2016.02.29-15.45.16:806][795]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2016.02.29-15.45.16:806][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Entry.Entry to /Game/Maps/UEDPIE_0_Entry.Entry (0.005940s)
+[2016.02.29-15.45.16:852][795]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-15.45.16:861][795]LogInit: FAudioDevice initialized.
+[2016.02.29-15.45.16:970][795]LogWorld: Game class is 'GameMode'
+[2016.02.29-15.45.16:977][795]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Entry.Entry up for play (max tick rate 0) at 2016.02.29-10.45.16
+[2016.02.29-15.45.16:977][795]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.45.16:977][795]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.45.16:978][795]LogWorld: Bringing up level for play took: 0.003746
+[2016.02.29-15.45.17:042][795]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Entry -0.231
+[2016.02.29-15.45.17:042][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.22:125][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.22:180][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.22:213][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005EC87D80
+[2016.02.29-15.45.23:105][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.23:105][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-15.45.23:106][251]PIE: New page: PIE session: Entry (Feb 29, 2016, 5:45:23 AM)
+[2016.02.29-15.45.23:106][251]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Entry
+[2016.02.29-15.45.23:113][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006998s)
+[2016.02.29-15.45.23:114][251]LogAIModule: Creating AISystem for world Entry
+[2016.02.29-15.45.23:114][251]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2016.02.29-15.45.23:114][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Entry.Entry to /Game/Maps/UEDPIE_0_Entry.Entry (0.008824s)
+[2016.02.29-15.45.23:162][251]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-15.45.23:169][251]LogInit: FAudioDevice initialized.
+[2016.02.29-15.45.23:269][251]LogWorld: Game class is 'GameMode'
+[2016.02.29-15.45.23:276][251]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Entry.Entry up for play (max tick rate 0) at 2016.02.29-10.45.23
+[2016.02.29-15.45.23:276][251]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.45.23:276][251]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.45.23:276][251]LogWorld: Bringing up level for play took: 0.003915
+[2016.02.29-15.45.23:311][251]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Entry 0.038
+[2016.02.29-15.45.23:311][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.34:802][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.34:855][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.45.34:905][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000C53B4180
+[2016.02.29-15.46.06:322][868]BlueprintLog: New page: Compile BP_UE4_Intro_Logo
+[2016.02.29-15.46.06:461][868]BlueprintEditorCompileResults: Info [1997.65] Compile of BP_UE4_Intro_Logo successful! [in 138 ms]
+[2016.02.29-15.46.07:011][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.46.07:118][925]LogSavePackage: Save=104.480789ms
+[2016.02.29-15.46.07:118][925]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_Logo2390F16D41FB723967E97B973C999DE2.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.46.07:121][925]LogSavePackage: Total save time: 108.142465ms
+[2016.02.29-15.46.07:121][925]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.46.20:027][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Blueprints/BP_UE4_Intro_Logo" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset" SILENT=true
+[2016.02.29-15.46.20:107][455]LogSavePackage: Save=77.395805ms
+[2016.02.29-15.46.20:107][455]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/BP_UE4_Intro_Logo8D001158441E45D74C462282EF8D1F56.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset'
+[2016.02.29-15.46.20:109][455]LogSavePackage: Total save time: 80.605850ms
+[2016.02.29-15.46.20:109][455]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Blueprints/BP_UE4_Intro_Logo.uasset
+[2016.02.29-15.46.35:764][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.46.35:764][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-15.46.35:765][808]PIE: New page: PIE session: Entry (Feb 29, 2016, 5:46:35 AM)
+[2016.02.29-15.46.35:765][808]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Entry
+[2016.02.29-15.46.35:773][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007816s)
+[2016.02.29-15.46.35:774][808]LogAIModule: Creating AISystem for world Entry
+[2016.02.29-15.46.35:774][808]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2016.02.29-15.46.35:774][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Entry.Entry to /Game/Maps/UEDPIE_0_Entry.Entry (0.009600s)
+[2016.02.29-15.46.35:825][808]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-15.46.35:834][808]LogInit: FAudioDevice initialized.
+[2016.02.29-15.46.35:935][808]LogWorld: Game class is 'GameMode'
+[2016.02.29-15.46.35:942][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Entry.Entry up for play (max tick rate 0) at 2016.02.29-10.46.35
+[2016.02.29-15.46.35:942][808]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.46.35:943][808]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.46.35:943][808]LogWorld: Bringing up level for play took: 0.004130
+[2016.02.29-15.46.35:964][808]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Entry 0.685
+[2016.02.29-15.46.35:964][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.46.43:981][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.46.44:033][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.46.44:075][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055A76480
+[2016.02.29-15.46.47:817][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Entry" FILE="../../../../../VRLogo_410/Content/Maps/Entry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-15.46.47:924][149]LogSavePackage: Save=76.881279ms
+[2016.02.29-15.46.47:924][149]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/Entry8A3895F8457CBC35BE44DC93B117A87C.tmp' to '../../../../../VRLogo_410/Content/Maps/Entry.umap'
+[2016.02.29-15.46.47:926][149]LogSavePackage: Total save time: 79.401623ms
+[2016.02.29-15.46.47:926][149]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Maps/Entry.umap
+[2016.02.29-15.46.47:948][149]LogFileHelpers: Saving map 'Entry' took 0.219
+[2016.02.29-15.46.52:304][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.46.52:304][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-15.46.52:304][283]PIE: New page: PIE session: Entry (Feb 29, 2016, 5:46:52 AM)
+[2016.02.29-15.46.52:304][283]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Entry
+[2016.02.29-15.46.52:309][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004419s)
+[2016.02.29-15.46.52:310][283]LogAIModule: Creating AISystem for world Entry
+[2016.02.29-15.46.52:310][283]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2016.02.29-15.46.52:310][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Entry.Entry to /Game/Maps/UEDPIE_0_Entry.Entry (0.005696s)
+[2016.02.29-15.46.52:353][283]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-15.46.52:362][283]LogInit: FAudioDevice initialized.
+[2016.02.29-15.46.52:467][283]LogWorld: Game class is 'GameMode'
+[2016.02.29-15.46.52:474][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Entry.Entry up for play (max tick rate 0) at 2016.02.29-10.46.52
+[2016.02.29-15.46.52:474][283]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.46.52:474][283]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Entry.Entry:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-15.46.52:475][283]LogWorld: Bringing up level for play took: 0.003575
+[2016.02.29-15.46.52:478][283]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Entry -0.801
+[2016.02.29-15.46.52:478][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.47.01:035][227]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.47.01:154][227]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Entry.Entry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Entry.Entry:PersistentLevel.Entry' with GeneratedClass '/Game/Maps/Entry.Entry_C' with ClassGeneratedBy '/Game/Maps/Entry.Entry:PersistentLevel.Entry'
+[2016.02.29-15.47.01:195][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EC882C0
+[2016.02.29-15.47.33:815][ 87]LogTexture:Display: Building textures: T_RandomTileNoise_nearest (AutoDXT)
+[2016.02.29-15.47.42:331][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Textures/T_RandomTileNoise_nearest" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset" SILENT=true
+[2016.02.29-15.47.42:335][ 99]LogSavePackage: Save=2.093953ms
+[2016.02.29-15.47.42:335][ 99]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/T_RandomTileNoise_nearest7E1624F24C149C87B70D9B8A65D000CF.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset'
+[2016.02.29-15.47.42:337][ 99]LogSavePackage: Total save time: 5.030096ms
+[2016.02.29-15.47.42:337][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Textures/T_RandomTileNoise_nearest.uasset
+[2016.02.29-15.49.47:997][791]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.02.29-15.49.48:004][791]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.49.48:042][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.48:050][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.48:077][791]LogMaterial: 0.001016 seconds spent updating 2 materials, 2 interfaces, 2 instances, 0 with static permutations.
+[2016.02.29-15.49.49:608][791]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.02.29-15.49.49:615][791]LogMaterial: 0.000201 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.49.49:642][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.49:650][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.49:668][791]LogMaterial: 0.000880 seconds spent updating 2 materials, 2 interfaces, 2 instances, 0 with static permutations.
+[2016.02.29-15.49.51:069][791]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.49.51:075][791]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.49.51:111][791]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.49.51:119][791]LogMaterial: Missing cached shader map for material M_Black_2sided, compiling. 
+[2016.02.29-15.49.51:125][791]LogMaterial: 0.001117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.49.52:384][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.52:394][791]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.29-15.49.52:438][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.52:450][791]LogMaterial: Missing cached shader map for material M_UE4_Logo_De-Res, compiling. 
+[2016.02.29-15.49.52:457][791]LogMaterial: 0.000852 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
+[2016.02.29-15.49.55:153][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Materials/M_Black_2sided" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset" SILENT=true
+[2016.02.29-15.49.55:201][791]LogSavePackage: Save=42.879593ms
+[2016.02.29-15.49.55:201][791]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/M_Black_2sided247FE294423EC5384975D0ACCECBBE6B.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset'
+[2016.02.29-15.49.55:203][791]LogSavePackage: Total save time: 47.349811ms
+[2016.02.29-15.49.55:203][791]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_Black_2sided.uasset
+[2016.02.29-15.49.55:267][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logos/Outro/Materials/M_UE4_Logo_De-Res" FILE="../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_UE4_Logo_De-Res.uasset" SILENT=true
+[2016.02.29-15.49.55:304][791]LogSavePackage: Save=32.548790ms
+[2016.02.29-15.49.55:304][791]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/M_UE4_Logo_De-ResBEF16E6B4886A90FAF28C89A33A79DB5.tmp' to '../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_UE4_Logo_De-Res.uasset'
+[2016.02.29-15.49.55:306][791]LogSavePackage: Total save time: 37.918981ms
+[2016.02.29-15.49.55:306][791]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/Logos/Outro/Materials/M_UE4_Logo_De-Res.uasset
+[2016.02.29-15.49.55:316][791]LogMaterial: Missing cached shader map for material Material_9, compiling. 
+[2016.02.29-15.49.55:374][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialFunctions/EdgeGradient" FILE="../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset" SILENT=true
+[2016.02.29-15.49.55:391][791]LogSavePackage: Save=13.691512ms
+[2016.02.29-15.49.55:391][791]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/EdgeGradient76479B1A41ACFE6C900F8BAB7BBA7023.tmp' to '../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset'
+[2016.02.29-15.49.55:392][791]LogSavePackage: Total save time: 17.077819ms
+[2016.02.29-15.49.55:392][791]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/MaterialFunctions/EdgeGradient.uasset
+[2016.02.29-15.49.55:401][791]LogMaterial: Missing cached shader map for material Material_10, compiling. 
+[2016.02.29-15.49.55:446][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialFunctions/HardEdgedMask" FILE="../../../../../VRLogo_410/Content/MaterialFunctions/HardEdgedMask.uasset" SILENT=true
+[2016.02.29-15.49.55:468][791]LogSavePackage: Save=15.034333ms
+[2016.02.29-15.49.55:468][791]LogSavePackage: Moving '../../../../../VRLogo_410/Saved/HardEdgedMask6BA126A145A75957A7CEDDA0CA88F25A.tmp' to '../../../../../VRLogo_410/Content/MaterialFunctions/HardEdgedMask.uasset'
+[2016.02.29-15.49.55:469][791]LogSavePackage: Total save time: 22.245780ms
+[2016.02.29-15.49.55:469][791]LogSavePackage:Display: Finished SavePackage ../../../../../VRLogo_410/Content/MaterialFunctions/HardEdgedMask.uasset
+[2016.02.29-15.49.56:640][792]Cmd: QUIT_EDITOR
+[2016.02.29-15.49.57:019][792]LogExit: Preparing to exit.
+[2016.02.29-15.49.57:834][792]LogExit: Editor shut down
+[2016.02.29-15.49.57:834][792]LogExit: Transaction tracking system shut down
+[2016.02.29-15.49.57:876][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000072D0E520
+[2016.02.29-15.49.57:876][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000072D0C720
+[2016.02.29-15.49.57:877][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031F78680
+[2016.02.29-15.49.57:889][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000075456160
+[2016.02.29-15.49.57:889][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039AE76A0
+[2016.02.29-15.49.57:890][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A549F80
+[2016.02.29-15.49.57:890][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000102145E0
+[2016.02.29-15.49.57:890][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003101E020
+[2016.02.29-15.49.57:891][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000563DDEE0
+[2016.02.29-15.49.57:892][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039AE5800
+[2016.02.29-15.49.57:892][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AEC3420
+[2016.02.29-15.49.57:893][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004401B420
+[2016.02.29-15.49.57:898][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000BFC86FC0
+[2016.02.29-15.49.59:082][792]LogExit: Object subsystem successfully closed.
+[2016.02.29-15.49.59:106][792]LogD3D11RHI: Shutdown
+[2016.02.29-15.49.59:106][792]LogD3D11RHI: CleanupD3DDevice
+[2016.02.29-15.49.59:231][792]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module BlueprintGraph (203)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (202)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module TextureEditor (199)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.29-15.49.59:250][792]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.29-15.49.59:259][792]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.29-15.49.59:270][792]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.29-15.49.59:270][792]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.29-15.49.59:271][792]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.29-15.50.00:083][792]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.29-15.50.00:084][792]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.29-15.50.00:085][792]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.29-15.50.00:088][792]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.29-15.50.00:316][792]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.29-15.50.00:317][792]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.29-15.50.00:339][792]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.29-15.50.00:352][792]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.29-15.50.00:352][792]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.29-15.50.00:352][792]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.29-15.50.00:352][792]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.29-15.50.00:352][792]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.29-15.50.00:353][792]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.29-15.50.00:355][792]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.29-15.50.00:356][792]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.29-15.50.00:447][792]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.29-15.50.00:448][792]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.29-15.50.00:448][792]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.29-15.50.00:548][792]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.29-15.50.00:548][792]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.29-15.50.00:548][792]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.29-15.50.00:548][792]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.29-15.50.00:548][792]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.29-15.50.00:549][792]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.29-15.50.00:549][792]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.29-15.50.00:549][792]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.29-15.50.00:549][792]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.29-15.50.00:550][792]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.29-15.50.00:550][792]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.29-15.50.00:550][792]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.29-15.50.00:550][792]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.29-15.50.00:550][792]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.29-15.50.00:550][792]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.29-15.50.00:551][792]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.29-15.50.00:551][792]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.29-15.50.00:551][792]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.29-15.50.00:551][792]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.29-15.50.00:554][792]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.29-15.50.00:555][792]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.29-15.50.00:605][792]LogDerivedDataCache: Shutdown
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.29-15.50.00:605][792]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.29-15.50.00:606][792]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.29-15.50.02:606][792]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.29-15.50.02:643][792]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.29-15.50.02:710][792]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.29-15.50.02:710][792]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.29-15.50.02:710][792]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.29-15.50.02:710][792]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.29-15.50.02:710][792]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.29-15.50.02:738][792]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.29-15.50.02:762][792]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.29-15.50.02:762][792]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.29-15.50.02:762][792]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.29-15.50.02:762][792]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.29-15.50.02:762][792]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.29-15.50.02:762][792]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.29-15.50.02:786][792]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.29-15.50.02:797][792]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.29-15.50.02:802][792]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.29-15.50.02:805][792]LogExit: Exiting.
+[2016.02.29-15.50.02:827][792]Log file closed, 02/29/16 10:50:02
